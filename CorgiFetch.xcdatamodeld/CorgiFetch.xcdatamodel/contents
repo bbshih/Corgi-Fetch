@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1487" systemVersion="12B19" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Photo" representedClassName="Photo" syncable="YES">
+        <attribute name="date" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="detailPulled" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="favorite" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="flickrID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="orderingValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="owner_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="photoURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sourceURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="thumbURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="views" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="PhotoFavorites" representedClassName="Photo" syncable="YES">
+        <attribute name="date" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="detailPulled" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="favorite" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="flickrID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="orderingValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="owner_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="photoURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sourceURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="thumbURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="views" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Video" representedClassName="Video" syncable="YES">
+        <attribute name="author" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="datePublished" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="duration" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="orderingValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="thumbURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ytVideoCode" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="VideoFavorites" representedClassName="Video" syncable="YES">
+        <attribute name="author" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="datePublished" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="duration" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="orderingValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="thumbURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ytVideoCode" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Photo" positionX="0" positionY="0" width="128" height="210"/>
+        <element name="PhotoFavorites" positionX="0" positionY="0" width="128" height="210"/>
+        <element name="Video" positionX="160" positionY="192" width="128" height="150"/>
+        <element name="VideoFavorites" positionX="0" positionY="0" width="128" height="150"/>
+    </elements>
+</model>
